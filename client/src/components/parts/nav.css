@@ -1,0 +1,154 @@
+header {
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 100%;
+}
+.logo_div {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+}
+.logo_div h1 {
+  font-family: "Crete Round", serif;
+  color: rgb(241, 241, 28);
+  font-size: 2.5rem;
+}
+
+.nav_options {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px 10px;
+}
+.sub_btn {
+  background: #000;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 40px;
+  font-family: "Bree Serif", serif;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.menu_btn {
+  background: #fff;
+  border: none;
+  color: black;
+  width: 100px;
+  height: 40px;
+  font-family: "Bree Serif", serif;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+footer {
+  background: #000;
+  width: 100%;
+  padding: 30px 20px;
+  text-align: center;
+  color: white;
+}
+footer h1 {
+  color: rgb(241, 241, 28);
+}
+
+.menu {
+  width: 100%;
+  height: 93.5vh;
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  background: #000;
+  animation-name: growDown;
+  animation-duration: 0.5s;
+}
+.menuClose {
+  width: 100%;
+  height: 0vh;
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  background: #000;
+  animation-name: growUp;
+  animation-duration: 0.5s;
+}
+.menu_top {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding: 5px 30px;
+}
+.menu_close_btn {
+  background: transparent;
+  font-size: 2rem;
+  font-family: "Blinker", sans-serif;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.menu_bottom {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.menu_bottom_left {
+  width: 50%;
+  padding: 0 100px;
+  height: 100%;
+}
+.menu_bottom_right {
+  width: 50%;
+  height: 100%;
+}
+
+.menu_ul {
+  list-style-type: none;
+}
+.menu_li {
+  margin-top: 7px;
+}
+.menu_bottom_left h3 {
+  color: rgb(241, 241, 28);
+  font-size: 3rem;
+}
+.menu_links {
+  color: white;
+  font-family: "Blinker", sans-serif;
+  font-size: 2.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.menu_links:hover {
+  margin-left: 10px;
+  color: rgb(241, 241, 28);
+}
+
+@keyframes growDown {
+  0% {
+    height: 0vh;
+  }
+  100% {
+    height: 93.5vh;
+  }
+}
+
+@keyframes growUp {
+  0% {
+    height: 93.5vh;
+  }
+  100% {
+    height: 0vh;
+  }
+}

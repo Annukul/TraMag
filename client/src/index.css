@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@200&family=Bree+Serif&family=Crete+Round&family=Markazi+Text&family=Patrick+Hand+SC&display=swap");
+:root {
+  --yellow-: "rgb(241, 241, 28)";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  max-width: 100vw;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+h1 {
+  font-family: "Bree Serif", serif;
+}
+h2 {
+  font-family: "Bree Serif", serif;
+}
+h3 {
+  font-family: "Crete Round", serif;
+}
+h4 {
+  font-family: "Crete Round", serif;
+}
+small {
+  font-family: "Blinker", sans-serif;
+}
+p {
+  font-family: "Blinker", sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

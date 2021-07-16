@@ -1,0 +1,223 @@
+/* ================================ LATEST POST DIV =========================== */
+
+.lp_content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.lp_head {
+  width: 60%;
+  margin-bottom: 50px;
+  background: transparent;
+}
+.lp_head h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.lp_head_hr {
+  border: 2px solid rgb(241, 241, 28);
+  width: 20%;
+  margin: 0 auto;
+}
+
+.lp_content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.lp_posts {
+  display: flex;
+  width: 90%;
+  background: transparent;
+}
+
+/* LP POST LEFT */
+.lp_posts_left {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.lp_posts_left_head {
+  border-left: 8px solid rgb(241, 241, 28);
+  padding-left: 30px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.lp_posts_left_content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.lp_posts_left_post {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.left_post_img {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left_post_img img {
+  width: 100%;
+  object-fit: contain;
+}
+.left_post_txt {
+  width: 55%;
+}
+
+/* LP POST RIGHT */
+.lp_posts_right {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+.lp_posts_right_post {
+  width: 100%;
+}
+.right_post_img {
+  width: 100%;
+  overflow: hidden;
+}
+.right_post_img img {
+  width: 100%;
+  filter: brightness(40%);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.right_post_img img:hover {
+  transform: scale(1.1);
+}
+
+.lp_posts_right_top {
+  width: 85%;
+  margin: 0 auto;
+}
+.right_post_txt {
+  transform: translateY(-250px);
+  padding: 10px 20px;
+}
+.right_post_txt small {
+  font-size: 2rem;
+}
+.right_post_txt h4 {
+  font-size: 3rem;
+}
+
+.lp_posts_right_bottom {
+  width: 85%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: -200px;
+}
+.bottom_postcard {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.bottom_postcard_img {
+  width: 100%;
+  overflow: hidden;
+}
+.bottom_postcard_img img {
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.bottom_postcard_img img:hover {
+  transform: scale(1.1);
+}
+.bottom_postcard_text {
+  background: #fff;
+  color: #000;
+  height: 150px;
+  padding: 30px 20px;
+  margin-bottom: 30px;
+}
+.bottom_postcard_text h4 {
+  line-height: 1.5;
+}
+
+/* ===================================== VIDEO POST DIV ========================================= */
+#videoDiv {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  color: white;
+  overflow: hidden;
+}
+#video1 {
+  margin: auto;
+  display: block;
+  filter: brightness(60%);
+}
+#videoMessage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.videotext {
+  text-align: center;
+  width: 70%;
+}
+.videotext h1,
+.videotext h2,
+.videotext p {
+  margin-bottom: 20px;
+}
+.videobtn {
+  background: #000;
+  color: white;
+  border: none;
+  width: 100px;
+  height: 40px;
+  font-family: "Crete Round", serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+  /* transition: all 0.1s ease-in-out; */
+}
+.videobtn:hover {
+  background: rgb(241, 241, 28);
+  color: #000;
+}
+
+/* =========================================== TRAVEL SECTION ================================== */
+/* Same as lpPost css */
+
+/* =========================================== SIGNUP SECTION DIV ==============================*/
+.sub_div {
+  width: 100%;
+  text-align: center;
+  padding: 50px 20px;
+}
+.sub_div h1,
+.sub_div p,
+.sub_div button {
+  margin-bottom: 20px;
+}
+.subbtn {
+  background: rgb(241, 241, 28);
+  color: white;
+  border: none;
+  width: 150px;
+  height: 50px;
+  font-family: "Crete Round", serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
